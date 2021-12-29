@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ActionDemo01.csproj",
+                "${workspaceFolder}/HarshitDemo01.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/ActionDemo01.csproj",
+                "${workspaceFolder}/HarshitDemo01.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/ActionDemo01.csproj",
+                "${workspaceFolder}/HarshitDemo01.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -45,14 +45,14 @@
                 "build"
             ],
             "dockerBuild": {
-                "tag": "actiondemo01:dev",
+                "tag": "HarshitDemo01:dev",
                 "target": "base",
                 "dockerfile": "${workspaceFolder}/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/ActionDemo01.csproj"
+                "appProject": "${workspaceFolder}/HarshitDemo01.csproj"
             }
         },
         {
@@ -62,13 +62,13 @@
                 "build"
             ],
             "dockerBuild": {
-                "tag": "actiondemo01:latest",
+                "tag": "HarshitDemo01:latest",
                 "dockerfile": "${workspaceFolder}/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/ActionDemo01.csproj"
+                "appProject": "${workspaceFolder}/HarshitDemo01.csproj"
             }
         },
         {
@@ -79,7 +79,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/ActionDemo01.csproj",
+                "appProject": "${workspaceFolder}/HarshitDemo01.csproj",
                 "enableDebugging": true
             }
         },
@@ -91,7 +91,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/ActionDemo01.csproj"
+                "appProject": "${workspaceFolder}/HarshitDemo01.csproj"
             }
         }
     ]

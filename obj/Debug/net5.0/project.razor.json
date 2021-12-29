@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\ActionDemo01\\ActionDemo01\\ActionDemo01.csproj",
+  "FilePath": "c:\\HarshitDemo01\\HarshitDemo01\\HarshitDemo01.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,7 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "ActionDemo01",
+  "RootNamespace": "HarshitDemo01",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

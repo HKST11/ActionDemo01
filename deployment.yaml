@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: actiondemo01-deployment
+  name: harshitdemo01-deployment
 spec:
   selector:
     matchLabels:
-      app: actiondemo01-pod
+      app: harshitdemo01-pod
   template:
     metadata:
       labels:
-        app: actiondemo01-pod
+        app: harshitdemo01-pod
     spec:
       containers:
-      - name: actiondemo01-container
-        image: sidlabacr03.azurecr.io/actiondemo01:latest
+      - name: harshitdemo01-container
+        image: sidlabacr03.azurecr.io/harshitdemo01:latest
         resources:
           limits:
             memory: "128Mi"

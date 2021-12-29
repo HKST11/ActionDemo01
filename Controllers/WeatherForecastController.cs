@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace ActionDemo01.Controllers
+namespace HarshitDemo01.Controllers
 {
     [ApiController]
     [Route("[controller]")]
